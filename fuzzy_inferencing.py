@@ -1,11 +1,3 @@
-# AI Course - II AIML/REC
-# Category 8(b): Fuzzy Inferencing System
-# Use cases: Medical Diagnosis, Electric Vehicle,
-# Autonomous Vehicle, and Smart Manufacturing.
-#
-# Educational demonstration using simple membership functions and rules.
-
-
 def fuzzy_membership(value, low, high):
     """Calculate membership using an increasing linear function."""
     if low >= high:
@@ -45,7 +37,6 @@ def autonomous_vehicle():
     print("\n--- Autonomous Vehicle ---")
     obstacle_distance = 15
 
-    # A closer obstacle produces a higher braking membership.
     braking_membership = 1 - fuzzy_membership(
         obstacle_distance, 5, 50
     )
