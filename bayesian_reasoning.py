@@ -1,11 +1,3 @@
-# AI Course - II AIML/REC
-# Category 8(a): Bayesian Reasoning
-# Use cases: Medical Diagnosis, Electric Vehicle,
-# Autonomous Vehicle, and Smart Manufacturing.
-#
-# Educational demonstration using illustrative probabilities only.
-
-
 def bayes_theorem(prior, likelihood, evidence):
     """Calculate posterior probability using Bayes' theorem."""
     if evidence <= 0:
